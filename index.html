@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Skill</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Certificates</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Education</a></li>
+            <li><a href="#project" onclick="toggleMenu();">Project</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2></b>Hi There,<br> <b style="font-size: 50px;">  I'm Ekta Agarwal</b></h2>
+            <!-- <h3>I'm a Full Stack Web Developer.</h3> -->
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/photo.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b style="color: #009e9e;">Ekta Agarwal</b></h2>
+                <p>I am a hard working, honest individual. I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems.</p><br>
+                <p>I spend a lot of time learning new techniques and actively help other people learn through a variety of help groups.</p><br>
+                <b style="font-size: 20px;">Training :</b><br>
+                <p style="color: #009e9e;">Trainee She Arise: CSR Intitiative of Altran, the part of Capgemini</p>
+                <p style="color: #009e9e;">Governed by Nasscom Under Centum Foundation</p>
+                <br>
+                <p>This is me - Ekta</p>
+                <div class="heading bottom">
+                    <a href="images/Ekta's Resume.pdf" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Ekta Agarwal<br>
+                        <b>DOB:</b> 23 July 1997
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> ektaagarwal09760@gmail.com<br>
+                        <b>Location:</b> INDIA
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Services Layout in HTML -->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>SKILLS</h2>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-database fa-4x"></i>
+                <ul><h3>Database</h3><br>
+                <li><p class="t">MySql</p></li>
+                <li><p class="t">Core Php With MySql</p></li>
+                </ul>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-desktop fa-4x"></i>
+                <ul><h3>Operating System</h3><br>
+                <li><p class="t">Windows XP</p></li>
+                <li><p class="t">Windows 7</p></li>
+                <li><p class="t">Windows 10</p></li>
+                </ul>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-globe fa-4x"></i>
+                <ul><h3>Technology</h3><br>
+                <li><p class="t">HTML</p></li>
+                <li><p class="t">CSS</p></li>
+                <li><p class="t">Bootstrap</p></li>
+                <li><p class="t">Java</p></li>
+                <li><p class="t">Wordpress</p></li>
+                <li><p class="t">Adobe Photoshop</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Work Layout in HTML -->
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>CERTIFICATES</h2>
+            <!-- <p><b>CERTIFICATE</b></p> -->
+        </div>
+         <div class="content">
+            <div class="workBx">
+                <a href="#">
+                    <img src="images/Big Data University DB0101EN Certificate _ Cognitive Class-1.jpg" alt="">
+                    <p>Sql & Relational Database Certification</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="#">
+                    <img src="images/CloudX Certificate.jfif" alt="">
+                    <p>CloudX Certification</p>
+                </a>
+            </div>
+             <div class="workBx">
+                <a href="#">
+                    <img src="images/Udemy Frontend Certificate.jpg" alt="">
+                    <p>FrontEnd Development Certification</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Testimonial Layout in HTML -->
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>EDUCATION</h2>
+            <!-- <p>What my clients think about me</p> -->
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <h5><b>MCA</b></h5>
+                <h5>2017-2019</h5>
+                <h5>Master Of Computer Application</h5>
+                <b>Dr. A.P.J Abdul Kalam Technical University</b>
+                <br>
+                <b>College:</b> Kanpur Institute Of Technology, Kanpur, Uttar Pradesh, India<br>
+                <b>Marks: 79%</b>
+         </div>
+         <div class="testimonialBx">
+            <h5><b>BCA</b></h5>
+            <h5>2014-2017</h5>
+            <h5>Bachelor Of Computer Application</h5>
+            <b>Chattrapati Sahu Ji Maharaj University</b>
+            <br>
+            <b>College:</b> College Of Management Studies, Unnao, Uttar Pradesh, India<br>
+            <b>Marks: 62%</b>
+        </div>
+            <div class="testimonialBx">
+                <h5><b>Intermediate</b></h5>
+                <h5>2013-2014</h5>
+                <h5>PCM</h5>
+                <b>UP Board</b>
+                <br>
+                <b>School:</b> Juhari Devi Girls Inter College, Kanpur, Uttar Pradesh, India<br>
+                <b>Marks: 70%</b>
+            </div>
+            <div class="testimonialBx">
+                <h5><b>High School</b></h5>
+                <h5>2011-2012</h5>
+                <h5>PCM</h5>
+                <b>UP Board</b>
+                <br>
+                <b>School:</b> Juhari Devi Girls Inter College, Kanpur, Uttar Pradesh, India<br>
+                <b>Marks: 75%</b>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating project block-->
+    <section class="project" id="project">
+        <div class="heading white">
+            <h2>PROJECT</h2>
+        </div>
+        <div class="content">
+            <div class="projectBx">
+                <!-- <i class="fa fa-database fa-4x"></i> -->
+                <img src="images/shopping.jpg">
+                <h2>E-Commerce Site For Online Shopping</h2>
+                <p>This project is a virtual store on the Internet where customers can browse the catalog and select products of interest. It uses Basic HTML,CSS, Bootstrap and Java Technology</p><br>
+                <p><b>Tools-</b> Eclipse IDE for Enterprise Java Developers</p><br>
+                <p><b>Technology-</b> Java</p>
+            </div>
+            <div class="projectBx">
+                <!-- <i class="fa fa-database fa-4x"></i> -->
+                <img src="images/ipr.jpg">
+                <h2>IPR for Securing Images</h2><br>
+                <p>Main aim of the project is to provide copyright protection to images over the web and mainly concentrate on transmission of images safely
+                    through watermarking</p><br>
+                <p><b>Tools-</b> Eclipse IDE for Enterprise Java Developers</p><br>
+                <p><b>Technology-</b> Java</p>
+            </div>
+
+            <div class="projectBx">
+                <!-- <i class="fa fa-database fa-4x"></i> -->
+                <img src="images/care space.jpg">
+                <h2>Online Blood Donation System</h2>
+                <p>This project is a Blood Donation Charity, Its has many donors to donate the blood which person has need.</p><br>
+                <p><b>Tools-</b> Visual Studio IDE 2012</p><br>
+                <p><b>Technology-</b> ASP.NET 3.5</p>
+            </div>
+   </div>
+   </section>
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <!-- <h3>Contact Info</h3> -->
+                <!-- <p>"Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program." - Linus Torvalds</p> -->
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <!-- <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div> -->
+                        <div class="text">
+                            <h3>Address : &nbsp;</h3>
+                            <p>Kanpur, Uttar Pradesh, India</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <!-- <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div> -->
+                        <div class="text">
+                            <h3>Phone no : &nbsp;</h3>
+                            <p>7054497898</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <!-- <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div> -->
+                        <div class="text">
+                            <h3>Email Address : &nbsp;</h3>
+                            <p>ektaagarwal09760@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- <h3>Social Connect</h3> -->
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://twitter.com/EktaAga35080195">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/ekta-agarwal-0aa895186/">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://join.skype.com/invite/VsC4oW7wQIAf">
+                                <i class="fa fa-skype"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div> -->
+        </div>
+        
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; Ekta Agarwal 2021, Allrights reserved</p>
+    </footer>
+</body>
+</html>
